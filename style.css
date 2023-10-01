@@ -11,19 +11,19 @@ header{
 
 /* Estilo para cada item de lista */
 .navbar-nav li.nav-item {
-    border: 1px solid #c71919; /* Borda ao redor do item */
+    border: 1px solid #641515; /* Borda ao redor do item */
     margin: 5px 0; /* Espaçamento vertical entre os itens */
     border-radius: 5px; /* Borda arredondada */
   }
   
   /* Estilo para a linha separando os itens lateralmente */
   .navbar-nav li.nav-item + li.nav-item {
-    border-left: 1px solid #c71919; /* Borda esquerda entre os itens */
+    border-left: 1px solid #641515; /* Borda esquerda entre os itens */
   }
   
   /* Estilo para a caixa com hover */
   .navbar-nav li.nav-item:hover {
-    background-color: #c71919; /* Cor de fundo no hover */
+    background-color: #641515; /* Cor de fundo no hover */
     transition: background-color 0.3s ease; /* Transição suave de cor */
   }
   
@@ -31,3 +31,4 @@ header{
   .navbar-nav li.nav-item a.nav-link {
     color: #fff; /* Cor do texto */
   }
+

@@ -1,34 +1,64 @@
-.jumbotron{
-    background-image: url(banner1.png);
-    font-size: 20px;
+/* Estilo para os links */
+.navbar-nav li.nav-item a.nav-link {
+  color: #fff; /* Cor do texto */
+  font-weight: bold; /* Texto em negrito */
+  text-transform: uppercase; /* Texto em maiúsculas */
+  font-size: 16px; /* Tamanho da fonte */
+}
+/* Estilo para os botões no navbar */
+.navbar-nav li.nav-item a.nav-link {
+  color: #fff; /* Cor do texto */
+  font-weight: bold; /* Texto em negrito */
+  text-transform: uppercase; /* Texto em maiúsculas */
+  font-size: 16px; /* Tamanho da fonte */
+  border: 2px solid #a08820; /* Adiciona uma borda ao botão */
+  padding: 10px 20px; /* Espaçamento interno dentro do botão */
+  border-radius: 5px; /* Borda arredondada no botão */
 }
 
-header{
-    font-size: 25px;
-    color: black;
+/* Estilo para a caixa com hover */
+.navbar-nav li.nav-item:hover a.nav-link {
+  background-color: #a08820; /* Cor de fundo no hover */
+  transition: background-color 0.3s ease; /* Transição suave de cor */
 }
 
+/* Aumentar o tamanho do logotipo */
+.navbar-brand img {
+  width: 200px; /* Ajuste o tamanho do logotipo conforme necessário */
+  height: auto; /* Mantenha a proporção da imagem */
+}
 
-/* Estilo para cada item de lista */
-.navbar-nav li.nav-item {
-    border: 1px solid #641515; /* Borda ao redor do item */
-    margin: 5px 0; /* Espaçamento vertical entre os itens */
-    border-radius: 5px; /* Borda arredondada */
-  }
-  
-  /* Estilo para a linha separando os itens lateralmente */
-  .navbar-nav li.nav-item + li.nav-item {
-    border-left: 1px solid #641515; /* Borda esquerda entre os itens */
-  }
-  
-  /* Estilo para a caixa com hover */
-  .navbar-nav li.nav-item:hover {
-    background-color: #641515; /* Cor de fundo no hover */
-    transition: background-color 0.3s ease; /* Transição suave de cor */
-  }
-  
-  /* Estilo para os links */
-  .navbar-nav li.nav-item a.nav-link {
-    color: #fff; /* Cor do texto */
-  }
+/* Estilo para os botões no navbar */
+.navbar-nav li.nav-item a.nav-link {
+  color: #fff; /* Cor do texto */
+  font-weight: bold; /* Texto em negrito */
+  text-transform: uppercase; /* Texto em maiúsculas */
+  font-size: 16px; /* Tamanho da fonte */
+  padding: 10px 20px; /* Espaçamento interno dentro do botão */
+  border-radius: 5px; /* Borda arredondada no botão */
+  border: 2px solid #a08820; /* Adiciona uma borda ao botão */
+  transition: background-color 0.3s ease; /* Transição suave de cor */
+}
 
+/* Estilo para a caixa com hover */
+.navbar-nav li.nav-item a.nav-link:hover {
+  background-color: #a08820; /* Cor de fundo no hover */
+}
+
+/* Aumentar o tamanho do logotipo */
+.navbar-brand img {
+  width: 200px; /* Ajuste o tamanho do logotipo conforme necessário */
+  height: auto; /* Mantenha a proporção da imagem */
+}
+/* Adicione espaço entre os botões no navbar */
+.navbar-nav li.nav-item a.nav-link {
+  color: #fff; /* Cor do texto */
+  font-weight: bold; /* Texto em negrito */
+  text-transform: uppercase; /* Texto em maiúsculas */
+  font-size: 16px; /* Tamanho da fonte */
+  padding: 10px 20px; /* Espaçamento interno dentro do botão */
+  border-radius: 5px; /* Borda arredondada no botão */
+  border: 2px solid #a08820; /* Adiciona uma borda ao botão */
+  transition: background-color 0.3s ease; /* Transição suave de cor */
+  margin-right: 10px; /* Adicione margem direita para espaço entre os botões */
+}

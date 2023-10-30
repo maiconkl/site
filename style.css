@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 /* Estilo para os links */
 .navbar-nav li.nav-item a.nav-link {
   color: #fff; /* Cor do texto */
